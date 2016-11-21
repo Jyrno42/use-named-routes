@@ -1,6 +1,6 @@
 import invariant from 'invariant';
-import { formatPattern } from 'react-router/lib/PatternUtils';
-import { createRoutes } from 'react-router/lib/RouteUtils';
+import { formatPattern } from 'react-router-with-sweg/lib/PatternUtils';
+import { createRoutes } from 'react-router-with-sweg/lib/RouteUtils';
 
 function makePaths(paths, route, basePath) {
   const { path, name, indexRoute, childRoutes } = route;
